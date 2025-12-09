@@ -1,8 +1,0 @@
-{
-  "name": "ai-chat",
-  "version": "1.0.0",
-  "main": "ai-chat.js",
-  "dependencies": {
-    "node-fetch": "^3.3.2"
-  }
-}
