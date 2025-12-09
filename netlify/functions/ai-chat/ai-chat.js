@@ -1,5 +1,5 @@
 // Contoh menggunakan Netlify Functions (memerlukan setup API Key)
-const { GoogleGenerativeAI } = require("@google/genai");
+const { GoogleGenerativeAI } = require("@google/generative-ai");
 
 // Inisialisasi API Key dari Environment Variable (didefinisikan di Netlify UI)
 const ai = new GoogleGenerativeAI(process.env.GEMINI_API_KEY);
@@ -35,3 +35,4 @@ exports.handler = async (event, context) => {
     };
   }
 };
+
