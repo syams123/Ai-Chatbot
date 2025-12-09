@@ -8,9 +8,10 @@
     "build": "echo 'No build step required'"
   },
 "dependencies": {
-  "@google/genai": "^0.1.0",
+  "@google/generative-ai": "^0.14.0",
   "node-fetch": "^3.3.2",
   "openai": "^4.0.0"
 }
 }
+
 
