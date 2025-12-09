@@ -1,0 +1,15 @@
+{
+  "name": "image-generate-function",
+  "version": "1.0.0",
+  "description": "Netlify function for generating images using OpenAI/DALL-E.",
+  "main": "image-generate.js",
+  "dependencies": {
+    "openai": "^4.0.0"
+  },
+  "keywords": [
+    "netlify",
+    "serverless",
+    "ai",
+    "dall-e"
+  ]
+}

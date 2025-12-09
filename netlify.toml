@@ -1,0 +1,8 @@
+[build]
+  # Folder output build (jika Anda menggunakan framework, tapi untuk HTML/CSS biasa, ini bisa dikosongkan)
+  # Untuk proyek statis sederhana, biarkan Netlify tahu root folder adalah root.
+  publish = "/" 
+
+[functions]
+  # Lokasi folder Netlify Functions Anda. HARUS SESUAI dengan struktur di atas.
+  directory = "netlify/functions"

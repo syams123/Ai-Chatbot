@@ -1,0 +1,8 @@
+{
+  "name": "ai-chat-function",
+  "version": "1.0.0",
+  "dependencies": {
+    "@google/genai": "^0.15.0" 
+    // Atau 'openai' jika Anda menggunakan ChatGPT
+  }
+}

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Chatbot - Kloning</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <aside class="sidebar">
+            <div class="sidebar-header">
+                <button class="new-chat-btn"><i class="fa-solid fa-plus"></i> Obrolan Baru</button>
+            </div>
+            <div class="chat-history">
+                <a href="#" class="history-item active"><i class="fa-regular fa-message"></i> Percobaan Pertama</a>
+                <a href="#" class="history-item"><i class="fa-regular fa-message"></i> Generate Logo</a>
+                <a href="#" class="history-item"><i class="fa-regular fa-message"></i> Tanya Soal Fisika</a>
+            </div>
+            <div class="sidebar-footer">
+                <a href="#" class="footer-link"><i class="fa-solid fa-gear"></i> Pengaturan</a>
+                <a href="#" class="footer-link"><i class="fa-solid fa-user-circle"></i> Akun Saya</a>
+            </div>
+        </aside>
+
+        <main class="chat-main">
+            <header class="chat-header">
+                <h2>AI Chatbot</h2>
+            </header>
+            
+            <div class="chat-area" id="chat-area">
+                <div class="message system-message">
+                    <p>Halo! Saya adalah AI Chatbot. Ada yang bisa saya bantu hari ini? Anda juga bisa mencoba fitur **generate gambar**!</p>
+                </div>
+            </div>
+
+            <div class="chat-input-container">
+                <form id="chat-form">
+                    <div class="input-wrapper">
+                        <button type="button" id="image-btn" class="icon-btn" title="Upload Gambar / Generate Gambar">
+                            <i class="fa-regular fa-image"></i>
+                        </button>
+                        
+                        <textarea id="user-input" placeholder="Ketik pesan Anda di sini..."></textarea>
+                        
+                        <button type="submit" class="send-btn" title="Kirim Pesan">
+                            <i class="fa-solid fa-paper-plane"></i>
+                        </button>
+                    </div>
+                </form>
+                <p class="disclaimer">AI dapat membuat kesalahan. Pertimbangkan untuk memverifikasi informasi penting.</p>
+            </div>
+        </main>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
