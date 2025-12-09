@@ -7,8 +7,10 @@
     "start": "echo 'No local start script defined'",
     "build": "echo 'No build step required'"
   },
-  "dependencies": {
-    "openai": "^4.0.0",
-    "node-fetch": "^3.3.2"
-  }
+"dependencies": {
+  "@google/genai": "^0.1.0",
+  "node-fetch": "^3.3.2",
+  "openai": "^4.0.0"
 }
+}
+
